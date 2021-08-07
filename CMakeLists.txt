@@ -76,8 +76,7 @@ set(TARGET_LIBS
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\libglfw3.a"
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\libglfw3dll.a"
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glew32.lib"
-        "D:\\\\Program File
-        \\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glew32mx.lib"
+        "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glew32mx.lib"
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glew32mxs.lib"
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glew32s.lib"
         "D:\\\\Program Files\\\\CodeBlocks\\\\MinGW\\\\x86_64-w64-mingw32\\\\lib\\\\glut.lib"
