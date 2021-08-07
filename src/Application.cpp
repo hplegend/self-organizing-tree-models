@@ -48,7 +48,8 @@ int main(int argc, char *argv[]) {
   }
   const auto begin = std::chrono::steady_clock::now();
   SplitMixGenerator splitMixGenerator;
-  MarkerSet markerSet(splitMixGenerator, 2.0f, 10, 1000 * 1000);
+  // 控制生长
+  MarkerSet markerSet(splitMixGenerator, 2.0f, 20, 1000 * 1000);
   Environment environment(splitMixGenerator, markerSet);
   Tree tree(environment, Point{});
   OpenGlWindow openGlWindow;

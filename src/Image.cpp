@@ -2,6 +2,7 @@
 
 #include <opencv2/core/mat.hpp>
 #include <opencv2/imgcodecs.hpp>
+#include <opencv2/opencv.hpp>
 
 Image::Image(std::vector<uint8_t> array, const uint32_t width, const uint32_t height) {
   if (array.size() != width * height * 3) {
@@ -22,5 +23,5 @@ Image::Image(std::vector<uint8_t> array, const uint32_t width, const uint32_t he
 }
 
 void Image::writeToFile(const std::string &filename) const {
-  cv::imwrite(filename, image);
+// cv::imwrite(filename, image);
 }
